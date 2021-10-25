@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Web Portofolio</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#home" class="navbar-brand page-scroll" id="home">Ana Mulianing</a>
+        </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about" class="page-scroll">About</a></li>
+          <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+          <li><a href="#contact" class="page-scroll">Contact</a></li>
+        </ul>
+      </div>
+
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/profile.jpg" alt="profile" class="img-circle" />
+      <h1>Ana Mulianing Kusumah</h1>
+      <p>Student | Pmeme | XI RPL C</p>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-1">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda obcaecati perferendis suscipit, reprehenderit commodi illo odit consequuntur aspernatur animi sint maiores officia, quaerat fuga unde esse. Dolorum.</p>
+          </div>
+          <div class="col-sm-5 col-sm-offset-1">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsum placeat eos nostrum minus reprehenderit dolore, quisquam numquam, hic quidem ipsa. Aliquam earum libero tempora distinctio veniam consectetur! Eum, deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir about -->
+
+    <!-- portofolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Portfolio</h2>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="img/images/img/1.png" class="thumbnail">
+              <img src="img/images/1.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="img/images/img/2.png" class="thumbnail">
+              <img src="img/images/2.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="img/images/img/3.png" class="thumbnail">
+              <img src="img/images/3.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="img/images/img/4.png" class="thumbnail">
+              <img src="img/images/4.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="img/images/img/5.png" class="thumbnail">
+              <img src="img/images/5.png" alt="">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="img/images/img/6.png" class="thumbnail">
+              <img src="img/images/6.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir portofolio -->
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Contact</h2>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <form>
+              <div class="from-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" class="form-control" placeholder="Masukkan Nama" />
+              </div>
+              <div class="from-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Masukkan Email" />
+              </div>
+              <div class="from-group">
+                <label for="telp">No Telepon</label>
+                <input type="tel" id="telp" class="form-control" placeholder="Masukkan No Telpon" />
+              </div>
+              <br />
+              <select class="form-control">
+                <option>-- Pilih Kategori --</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+              <div class="from-group">
+                <label for="pesan">Pesan</label>
+                <textarea class="form-control" rows="10" placeholder="Masukkan Pesan"></textarea>
+              </div>
+              <br />
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <!-- akhir contact -->
+
+    <!-- footer -->
+    <footer>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <p>&copy; Copyright 2021 | Built by <a href="https://www.instagram.com/anamulianing/">Ana Mulianing</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
